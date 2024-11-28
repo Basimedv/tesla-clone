@@ -1,0 +1,308 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+    margin-top: 0;
+    
+}
+ .nav-container{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right:30px;
+    padding-left: 20px;
+    height: 80px;
+    color: #fff;
+    z-index: 1000; 
+    margin-top: 50px;
+}
+.nav-container ul{
+    display:flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 15px;   
+}
+.nav-container ul li{
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+.nav-container ul li:hover,
+.nav-container .icons i:hover{
+    background-color: rgba(0,0,0,0.5 );
+}
+.logo{
+    width: 120px;
+    height: 30px;
+
+    
+    
+}
+.nav-container .icon{
+    display: flex;
+    font-size: 25px;
+    gap: 10px;
+    cursor: pointer;
+    color: #fff;
+   
+    
+}
+.nav-container .icons i{
+    border-radius: 50px;
+    padding: 3px;
+    transition: 0.5s;
+    
+    
+}
+.pages{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    flex-direction: column;
+}
+.pages li{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-bottom: 10px;
+    color: #fff;
+    scroll-snap-align: start;
+
+}
+.pages li image,
+.pages li img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.page-info h1{
+    letter-spacing: 1px;
+    font-size: 50px;
+    
+}
+.pages-info h1,
+.page-footer{
+    margin-bottom: 25px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+
+
+}   
+.page-footer button{
+    font-size: 13px;
+    
+    padding: 7px 80px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 50px;
+    height: 40px;
+    column-gap: 300px;
+
+
+}
+.container{
+    width: 100%;
+    height: 50px;
+    
+}
+.containerA{
+    width: 800px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 600px;
+    padding-top: 15px;
+    font-size: small;
+}
+.form{
+    width: 200%;
+    height: 500px;
+    
+     
+}
+.formA{
+    width: 700px;
+    height: 500px;
+    
+    margin-left: 500px;  
+
+}
+
+.form1{
+    width: 600px;
+    height: 80px;
+ margin-left: 80px;
+ padding-top: 55px;
+ font-size: small;
+ font-weight: 10;
+ 
+  
+}
+.form2{
+    width: 600px;
+    height: 90px;
+    font-size: smaller;
+    font-style: normal;
+    font-weight: 10;
+  
+ margin-left: 80px;
+ margin-top: 45px;
+ font-size: small;
+ font-style: normal;
+ font-weight: 10;
+ 
+  
+}
+.form3{
+    width: 650px;
+    height: 90px;
+    font-size: small;
+ font-style: normal;
+ font-weight: 10;
+ margin-top: -10px;
+  
+ margin-left: 80px;
+ 
+ font-size: small;
+ font-style: normal;
+ 
+  
+   
+    
+}
+.form4{
+    width: 650px;
+    height: 90px;
+  
+ margin-left: 80px;
+ margin-top: 30px;
+ font-size: small;
+ font-style: inherit;
+ padding-bottom: 10px;
+ font-weight: 10;
+  
+   
+}
+.form5{
+    width: 500px;
+    height: 90px;
+    padding-left: 10px;
+  
+ margin-left: 100px;
+ margin-top: 30px;
+ display: flex;
+ font-size: small;
+ font-style: inherit;
+ font-weight: 10;  
+}
+.last{  
+    width: 100%;
+    height: 50px;
+    font-size: small;
+  
+    
+}
+.last img{
+    width: 20px;
+    height: 20px;
+    margin-left: -50px;    
+}
+.last{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    
+}
+.firstimg{
+    margin-bottom: 750px;
+}
+.img2{
+    font-size: xx-large;
+}
+.car2{
+    background: rgb(85, 85, 227);
+ color: #fff;
+}
+.car3{
+    background: rgb(85, 85, 227);
+ color: #fff;
+
+}
+.img3{
+    font-size: xx-large;
+
+}
+ .img4{ 
+    font-size: xx-large;
+ }
+ .car4{
+    background: rgb(85, 85, 227);
+ color: #fff;
+ }
+ .img5{ 
+    font-size: xx-large;
+ }
+ .car6{
+    background: rgb(35, 9, 9);
+    color: #989393;
+
+ }
+ .car7{
+    background: rgb(35, 9, 9);
+    color: #989393;
+
+ }
+ #cybertruck{
+    width: 350px;
+    height: 100px;
+    margin-left: 700px;
+    margin-top: 80px;
+ }
+ .car8{
+    background: rgb(85, 85, 227);
+    color: #fff;
+ }
+ #img8{
+ font-size: 30px;
+ }
+ #car9{
+    background: rgb(85, 85, 227);
+    color: #fff;
+ }
+ .car10{
+    background: rgb(85, 85, 227);
+    color: #fff;
+ }
+ #img9{
+    font-size: 55px ;
+ }
+ .car10{
+    background: rgb(85, 85, 227);
+    color: #fff;
+
+ }
+
+ 
+
+ 
+
+ 
